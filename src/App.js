@@ -1,13 +1,24 @@
 import React, { Component } from 'react';
-import Button from './components/Button'
+import { Button } from './components/Button'
+import { Input } from './components/Input'
 import "./App.css";
 
 
 class App extends Component{
-  render(){
+ constructor(props){
+  super(props);
+
+  this.state = {
+    input: ""
+  }
+}  
+
+
+render(){
   return (
     <div className="App">
       <div className="calc-wrapper">
+        <Input input={this.state.input}></Input>
       <div className="row">
       <Button>7</Button>
       <Button>8</Button>
