@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Button } from './components/Button/Button'
-import { Input } from './components/Input/Input'
-import {ClearButton} from './components/ClearButton/ClearButton'
+import { Button } from './components/Button/Button/Button'
+import { Input } from './components/Input/Input/Input'
+import {ClearButton} from './components/ClearButton/ClearButton/ClearButton'
 import * as math from 'mathjs';
 import "./App.css";
 

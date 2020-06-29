@@ -1,6 +1,6 @@
 read me example
 # Descrption
-This is a simple React Calculator using Create React App and bringing in Math.js to handle the math logic and styled using css flex box
+This is a simple React Calculator using Create React App. I brought in Math.js to handle the math logic and utilized css flex box for the styling
 
 
 ## Demo
